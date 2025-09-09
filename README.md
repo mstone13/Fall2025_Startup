@@ -1,8 +1,8 @@
-# Your startup name here
+# Daily Planner Startup
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This application will act as a daily planner as well as a concise to-do list that is user-friendly and works on either a desktop or a mobile phone. Users will be able to add items to their planner/to-do list with simplicity as well as work with other users to add events to both planners.
 
 
 > [!NOTE]
@@ -26,7 +26,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As a busy college student juggling multiple classes, I find it can be difficult to organize my day effectively. Remembering all upcoming due dates, projects, homework, and readings is a daunting task, especially without a proper to-do list. Checking multiple sites (i.e. Learning Suite, Canvas, etc.) and multiple class pages just to be reminded that something is indeed due is time consuming and inconvenient. This daily planner design will allow users to input their daily events and upcoming due dates in a more simplified and efficient manner. 
 
 ### Design
 
