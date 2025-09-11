@@ -18,11 +18,11 @@ This application will act as a daily planner as well as a concise to-do list tha
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [X] Proper use of Markdown
+- [X] A concise and compelling elevator pitch
+- [X] Description of key features
+- [X] Description of how you will use each technology
+- [X] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
@@ -30,9 +30,9 @@ As a busy college student juggling multiple classes, I find it can be difficult 
 
 ### Design
 
-![Design image](placeholder.png)
+![Design image](dailyplanner-roughsketch.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I want the design to have all of the most important information up front: what needs to be done *now*, what is coming up next, and what have I already accomplished? Different types of tasks or activities will be color coordinated (i.e. different classes, meals, etc.). The users will be able to add and delete tasks with ease as well as being able to coordinate with other users.
 
 ```mermaid
 sequenceDiagram
@@ -43,20 +43,20 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- **Planner** - Users will be able to choose between adding daily, weekly, or monthly events. Different types of events will be color coordinated.
+- **To-Do List** - The To-Do list will organize based on due dates, therefore more important tasks will appear at the top. Users will be able to check off what they have already accomplished, and the task will stay (crossed out) until the end of the day. 
+- **Coordination with other users** - Users will be able to organize activities/events that will appear on both calendars. These events will have the name of the other user added to them. 
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - HTML will be used in this design to build the basic structure of the site. This will allow for users to input their information, events, and tasks. HTML is focused on structure and text more than design, so this will be implemented before any specific design choices.
+- **CSS** - CSS works hand in hand with HTML but to modify the appearance of the site and include animations and effects. CSS is especially important in this design as it will allow for users to color coordiante their events. CSS will help guide the users, draw their attention to more important features, and allow for organization of events/tasks. 
+- **React** - Building and updating the user interface is necessary for this web design because users will need to be able to easily use the site with little to no confusion. This site will include a login page, multiple pages leading to the daily schedule, weekly schedule, monthly schedule, and a way to add tasks/events. React will allow me to switch between those pages with ease.
+- **Service** - This design will implement login, logout, and connecting with other users. Service allows for the backend server functionality of these actions. Most important and possibly the most difficult task will be befriending and organizing with other users, so Service will be much needed to accomplish this.
+- **DB/Login** - Database focuses more on storing and rendering data of multiple users on a site. While not all of the data from a user will be available to all other users, some of it will be allowed, which is where DB/Login will be useful. 
+- **WebSocket** - WebSocket will be used to implement a function such as chatting between users or requesting to create an event together. WebSocket puts more focus on realtime data rather than long-term stored data, which will be reflected in the interactions between users. 
 
 ## 🚀 AWS deliverable
 
